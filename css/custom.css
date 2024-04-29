@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header{
+    background: #303c54;
+  }
+  .logo {
+    font-weight: bold;
+    font-size: 2em;
+    color: #ccc;
+  }
+
+  .text-md-right h3{
+    text-align: center;
+    color: 446c6e;
+}
+.sectiion1{
+  color: #00805e94;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  .text-md-right .nav-link {
+    color: #fff;
+    padding-right: -40px;
+  }
+  
+  .nav{
+    text-align: right;
+  }
+  .nav-link:hover {
+    color: #ccc;
+  }
+  
+  .inscription {
+    background: linear-gradient(to right, #06c0ad, #fffb009e); 
+    color: white;
+  }
+  
+  .inscription a.btn-secondary {
+    background: #6c757d; 
+    border-color: #6c757d;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    text-align: center;
+  }
+  
+  .inscription a.btn-secondary:hover {
+    background: #5a6268;
+    border-color: #545b62;
+  }
+  h5{
+    margin-bottom: 25px;
+    text-transform: uppercase;
+  }
+  img{
+    border-radius: 5%;
+    margin-bottom: 25px;
+  }
+  footer{
+    background-color: #303c54;
+  }
+  .bloc{
+    padding: 30px 0px;
+  }
+  .corps a{
+    text-decoration: none;
+    color: black;
+  }
+  .pied {
+    background: #303c54; 
+    color: white;
+  }
+  footer a{
+    color: white;
+  }
+
+  .foot{
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .gauche{
+    text-align: left;
+  }
+  @media (max-width: 767px) {
+    .nav {
+      flex-direction: column;
+    }
+  
+    .nav-item {
+      margin-bottom: 0.5rem;
+    }
+  
+    .haut h2, .haut p {
+      text-align: center;
+    }
+  
+    .haut a {
+      display: block;
+      width: 100%;
+      text-align: center;
+      margin-top: 1rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .vente,
+    .form {
+      padding: 0 15px;
+    }
+    
+    .vente h2,
+    .vente h5,
+    .vente p,
+    .vente ul {
+      margin-bottom: 1rem;
+    }
+  
+
+    .row {
+      flex-direction: column;
+    }
+  }
+  

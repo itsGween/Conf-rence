@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Nouvelle Conférence</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/custom.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container head">
+            <div class="row">
+                <div class="col-md-6">
+                <a href="../index.html" class="logo">Nouvelle <br />Conférence</a>
+                </div>
+                <div class="col-md-6 text-md-right">
+                    <div >
+                      <h3>24–25 mars 2024 — Ottawa, ON</h3>
+                    </div>
+                    <nav>
+                        <ul class="nav">
+                          <li class="nav-item"><a class="nav-link" href="../index.html">Accueil</a></li>
+                          <li class="nav-item"><a class="nav-link" href="speakers.html">Conférenciers</a></li>
+                          <li class="nav-item"><a class="nav-link" href="schedule.html">Programme</a></li>
+                          <li class="nav-item"><a class="nav-link" href="venue.html">Venue</a></li>
+                          <li class="nav-item"><a class="nav-link" href="register.html">Inscription</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+  <section class="inscription   text-center py-4">
+    <div class="container sectiion1" >
+      <h2>Inscription</h2>
+      <p> Suspendisse vel leo porttitor, fringilla turpis in, ultrices eros.
+        Integer sit amet interdum lacus. Nunc tempor in neque ut sagittis.
+        Suspendisse potenti. Vestibulum vestibulum augue vel nulla
+        scelerisque, sodales vestibulum dolor auctor.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container bloc">
+      <div class="row">
+
+        <div class="col-md-6">
+          <section class="vente">
+            <h2 class="achat">Achat de passe pour la conférence</h2>
+            <h5 class="prix">99$/ place</h5>
+            <p class="description">
+              In gravida fringilla fringilla. Ut at mi massa. Curabitur sed
+              rhoncus orci, sed pulvinar lectus. Praesent tempor nisi id facilisis
+              congue. Nullam eu convallis turpis, vel mattis turpis. In cursus,
+              augue in feugiat posuere, tortor velit congue mi, at volutpat nibh
+              turpis a tellus.
+            </p>
+            <h4>Bienvenue !</h4>
+            <ul class="liste">
+              <li>Cras eu est sit amet elit placerat venenatis.</li>
+              <li>Proin bibendum justo vestibulum accumsan rhoncus.</li>
+              <li>Pellentesque gravida risus id eros aliquet tempor.</li>
+              <li>Sed in odio at dolor posuere laoreet.</li>
+              <li>Nullam fermentum leo at dignissim varius.</li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="col-md-6">
+          <form id="registrationForm">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="name" name="name">
+            </div>
+            <p id="messageErreur1" class="erreur"></p>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input class="form-control" id="email" name="email">
+            </div>
+            <p id="messageErreur2" class="erreur"></p>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Numéro de téléphone</label>
+                <input class="form-control" id="phone" name="phone">
+            </div>
+            <p id="messageErreur3" class="erreur"></p>
+            <div class="mb-3">
+                <label>Type d'abonnement</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="subscription" id="basic" value="Basic" >
+                    <label class="form-check-label" for="basic">Basic</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="subscription" id="premium" value="Premium">
+                    <label class="form-check-label" for="premium">Premium</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="subscription" id="vip" value="VIP">
+                    <label class="form-check-label" for="vip">VIP</label>
+                </div>
+            </div>
+            <p id="messageErreur4" class="erreur"></p>
+            <div class="mb-3">
+                <label>Services supplémentaires</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="services" id="newsletter" value="Newsletter">
+                    <label class="form-check-label" for="newsletter">Newsletter</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="services" id="updates" value="Updates">
+                    <label class="form-check-label" for="updates">Mises à jour</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="services" id="promo" value="Promotions">
+                    <label class="form-check-label" for="promo">Promotions</label>
+                </div>
+            </div>
+            <p id="messageErreur5" class="erreur"></p>
+            <div class="mb-3">
+                <label for="quantity" class="form-label">Quantité</label>
+                <select class="form-control" id="quantity" name="quantity">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="comments" class="form-label">Commentaires</label>
+                <textarea class="form-control" id="comments" name="commentaires" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Soumettre</button>
+            
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <footer class="pied text-white text-center py-3">
+    <div class="row container foot">
+      <div class="col-md-6 gauche">
+        <small>© Nouvelle Conférence</small>
+      </div>
+      <div class="col-md-6">
+        <nav>
+          <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="../index.html" class="nav-link">Accueil</a></li>
+            <li class="nav-item"><a href="speakers.html" class="nav-link">Conférenciers</a></li>
+            <li class="nav-item"><a href="schedule.html" class="nav-link">Programme</a></li>
+            <li class="nav-item"><a href="venue.html" class="nav-link">Venue</a></li>
+            <li class="nav-item"><a href="register.html" class="nav-link">Inscription</a></li>
+          </ul>
+        </nav>
+      </div>
+      
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="../JS/validation.js"></script>
+</body>
+</html>
